@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Pantry Tracker Application </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Mohammed Shabbir Nalwala</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pantry.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Pantry Tracker</h1>
+                <span class="image fit"><img src="images/Pantry.png" alt="Projects" /></span>
+
+                <h2>Overview</h2>
+                <p>Developed a full-stack pantry management application that leverages image recognition and machine learning to classify and update pantry items. The application allows users to manage their pantry inventory by capturing images of items, which are then automatically classified and added to the inventory database. The project integrates various modern web technologies, cloud services, and machine learning models to provide a seamless and intelligent user experience.</p>
+
+                <h2>Key Features</h2>
+                <ul>
+                    <li><strong>User Authentication:</strong> Implemented secure user sign-in and sign-out functionality using Firebase Authentication.</li>
+                    <li><strong>Real-time Database:</strong> Utilized Firebase Firestore to store and update pantry inventory data in real-time, ensuring that users have up-to-date information on their pantry items.</li>
+                    <li><strong>Image Capture and Upload:</strong> Enabled users to capture images using their device's camera and upload them directly through the browser.</li>
+                    <li><strong>Image Classification:</strong> Integrated Google Cloud Vision API and custom-trained Google Cloud Vertex AI models to classify images and detect pantry items accurately.</li>
+                    <li><strong>Model Training:</strong> Leveraged Google Cloud AutoML to train custom machine learning models with specific images, achieving 100% precision, 0.999 average precision, and a recall of 96.3%, enhancing the accuracy of item classification.</li>
+                    <li><strong>API Development:</strong> Created robust API endpoints using Node.js and Express to handle image uploads, classification, and database updates.</li>
+                    <li><strong>Deployment:</strong> Deployed the application on Vercel, ensuring a scalable and reliable platform for end-users.</li>
+                    <li><strong>Responsive Design:</strong> Designed a responsive user interface using React and Material-UI (MUI) that provides an optimal user experience across various devices.</li>
+                </ul>
+
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li><strong>Frontend:</strong> React, Next.js, Material-UI (MUI)</li>
+                    <li><strong>Backend:</strong> Node.js, Express.js, Firebase Firestore, Firebase Authentication</li>
+                    <li><strong>Machine Learning:</strong> Google Cloud Vision API, Google Cloud Vertex AI, Google Cloud AutoML</li>
+                    <li><strong>Deployment:</strong> Vercel, Google Cloud SDK</li>
+                    <li><strong>APIs and Libraries:</strong> Axios, Formidable</li>
+                    <li><strong>Development Tools:</strong> Visual Studio Code, Postman, Git, GitHub</li>
+                </ul>
+
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Successfully trained and deployed a custom machine learning model to classify pantry items with high accuracy.</li>
+                    <li>Implemented real-time updates and synchronization of pantry inventory across multiple devices.</li>
+                    <li>Ensured secure and seamless user authentication and management.</li>
+                    <li>Achieved a responsive and user-friendly interface that adapts to various screen sizes and devices.</li>
+                    <li>Attained a classification model with 100% precision, 0.999 average precision, and a recall of 96.3%.</li>
+                </ul>
+
+                <h2>Impact</h2>
+                <p>The Pantry Tracker Application provides users with an innovative and efficient way to manage their pantry inventory. By leveraging advanced image recognition and machine learning technologies, the application automates the process of adding and classifying pantry items, saving users time and effort. The real-time database ensures that users always have the most current information at their fingertips, making pantry management easier and more effective.</p>
+
+                <ul class="actions">
+                    <li><a href="https://github.com/mohaammed17/Pantry-Tracker.git" class="button primary" target="_blank">GitHub</a></li>
+					<li><a href="https://pantry-tracker-mu.vercel.app/" class="button primary" target="_blank">View Live</a></li>
+
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Mohammed Shabbir Nalwala. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
